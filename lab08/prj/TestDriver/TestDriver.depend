@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1678639001 source:d:\Ћабы 2 сем\bmtp-git\tretiak-kyrylo-ki221\lab08\prj\testdriver\main.cpp
+	<iostream>
+	"ModulesTretiak.h"
+	<iomanip>
+	<cmath>
+
+1678555402 d:\Ћабы 2 сем\bmtp-git\tretiak-kyrylo-ki221\lab08\prj\modulestretiak.h
+
