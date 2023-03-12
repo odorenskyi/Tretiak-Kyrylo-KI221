@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1678647794 source:d:\Ћабы 2 сем\bmtp-git\tretiak-kyrylo-ki221\lab08\prj\tretiak_task\main.cpp
+	<iostream>
+	<locale>
+	<iomanip>
+	"ModulesTretiak.h"
+
+1678555402 d:\Ћабы 2 сем\bmtp-git\tretiak-kyrylo-ki221\lab08\prj\modulestretiak.h
+
