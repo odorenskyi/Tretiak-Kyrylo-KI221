@@ -14,28 +14,28 @@ int main()
 {
     setlocale(LC_ALL, "ukr");
     showInfo();
-    cout << "Ââåä³òü x, y, z(÷èñëà): " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ x, y, z(Ñ‡Ð¸ÑÐ»Ð°): " << endl;
     cout << "x -> ";
     float x = inputNum();
     cout << "y -> ";
     float y = inputNum();
     cout << "z -> ";
     float z = inputNum();
-    cout << "Ââåä³òü a, b(ñèìâîëè): " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ a, b(ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¸): " << endl;
     cout << "a -> ";
     char a = inputSymb();
     cout << "b -> ";
     char b = inputSymb();
-    cout << "Ðåçóëüòàò ëîã³÷íîãî âèðàçó: " << boolalpha  <<  getLogicValue(a,b)<< endl;
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð»Ð¾Ð³Ñ–Ñ‡Ð½Ð¾Ð³Ð¾ Ð²Ð¸Ñ€Ð°Ð·Ñƒ: " << boolalpha  <<  getLogicValue(a,b)<< endl;
     decimalSys(x, y, z);
     hexSys(x,y,z);
-    cout << "Ðåçóëüòàò ôóíêö³¿" << endl;
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ñ„ÑƒÐ½ÐºÑ†Ñ–Ñ—" << endl;
     cout<< s_calculation(x, y, z) << endl;
     return 0;
 }
 
 void showInfo(){
-    cout << "=====Ðîçðîáíèê Òðåòÿê Êèðèëî=====" << "\n" << "======Âñ³ ïðàâà çàõèùåíí³ ©======" << endl ;
+    cout << "=====Ð Ð¾Ð·Ñ€Ð¾Ð±Ð½Ð¸Ðº Ð¢Ñ€ÐµÑ‚ÑÐº ÐšÐ¸Ñ€Ð¸Ð»Ð¾=====" << "\n" << "======Ð’ÑÑ– Ð¿Ñ€Ð°Ð²Ð° Ð·Ð°Ñ…Ð¸Ñ‰ÐµÐ½Ð½Ñ– Â©======" << endl ;
 }
 float inputNum(){
     float bufferNum;
@@ -51,13 +51,13 @@ bool getLogicValue(char a, char b){
     return a + 3 <= b;
 }
 float decimalSys(int x, int y, int z){
-    cout << "×èñëî â äåñÿòêîâ³é ñèñòåì³ ÷èñëåííÿ" << endl;
+    cout << "Ð§Ð¸ÑÐ»Ð¾ Ð² Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ– Ñ‡Ð¸ÑÐ»ÐµÐ½Ð½Ñ" << endl;
     cout << dec << x <<endl;
     cout << dec << y <<endl;
     cout << dec << z <<endl;
 }
 float hexSys(int x, int y, int z){
-    cout << "×èñëî â ø³ñòíàäöÿòêîâ³é ñèñòåì³ ÷èñëåííÿ" << endl;
+    cout << "Ð§Ð¸ÑÐ»Ð¾ Ð² ÑˆÑ–ÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ– Ñ‡Ð¸ÑÐ»ÐµÐ½Ð½Ñ" << endl;
     cout << hex << x << endl;
     cout << hex << y << endl;
     cout << hex << z << endl;
